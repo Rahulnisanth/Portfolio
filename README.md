@@ -2,7 +2,7 @@
 
 ###
 
-<h2 align="left">Welcome to the Portfolio Preparation Project! <br>This project is designed to help you create an impressive and professional portfolio that showcases your skills, experiences, and achievements. Whether you're a student looking to land your dream job or a professional aiming to advance your career, a well-crafted portfolio is a crucial tool for making a lasting impression.</h2>
+<p align="left">Welcome to the Portfolio Preparation Project! <br>This project is designed to help you create an impressive and professional portfolio that showcases your skills, experiences, and achievements. Whether you're a student looking to land your dream job or a professional aiming to advance your career, a well-crafted portfolio is a crucial tool for making a lasting impression.</p>
 
 ###
 
