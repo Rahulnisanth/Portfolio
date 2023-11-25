@@ -49,13 +49,15 @@ AOS.init({
     });
   };
   burgerMenu();
+  
+
 
   var onePageClick = function () {
     $(document).on("click", '#ftco-nav a[href^="#"]', function (event) {
       event.preventDefault();
 
       var href = $.attr(this, "href");
-
+      burgerMenu();
       $("html, body").animate(
         {
           scrollTop: $($.attr(this, "href")).offset().top - 70,
@@ -65,6 +67,7 @@ AOS.init({
           // window.location.hash = href;
         }
       );
+      
     });
   };
 

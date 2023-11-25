@@ -32,10 +32,8 @@
                     <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
                     <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                     <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-                    <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
                     <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
                     <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-                    <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
                     <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
                 </ul>
             </div>
@@ -320,7 +318,8 @@
                     <div class="col-md-4 pt-4">
                         <div class="text justify-content-center align-items-center">
                             <h2 style="font-weight: 700;">Weather Applet</h2>
-                            <p>This is a simple weather app that provides current weather information for a given location.
+                            <p>This is a simple weather app that provides current weather information for a given
+                                location.
                                 It is built using HTML, CSS, and JavaScript.</p>
                             <div class="d-flex" style="width: 85%;justify-content: space-between;">
                                 <a href=""><span class=" icon-github"></span> Source Code</a>
@@ -340,6 +339,24 @@
                             <h2 style="font-weight: 700;">Project Caster</h2>
                             <p>This project is a platform where users can showcase their projects and technical works to
                                 boost their profiles and share their accomplishments with a wider audience.</p>
+                            <div class="d-flex" style="width: 85%;justify-content: space-between;">
+                                <a href=""><span class=" icon-github"></span> Source Code</a>
+                                <a href="">Live Demo &#8594;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+                            style="background-image: url(static/images/eventLanding.png);">
+                        </div>
+                    </div>
+                    <div class="col-md-4 pt-4">
+                        <div class="text justify-content-center align-items-center">
+                            <h2 style="font-weight: 700;">Inceptron</h2>
+                            <p>Inceptron Hackathon Landing page is designed for Streamlined registration and seamless
+                                project submission for an unparalleled hackathon experience.</p>
                             <div class="d-flex" style="width: 85%;justify-content: space-between;">
                                 <a href=""><span class=" icon-github"></span> Source Code</a>
                                 <a href="">Live Demo &#8594;</a>
@@ -454,17 +471,17 @@
                 <div class="col-md-6 order-md-last d-flex">
                     <form action="submit_form" method="post" class="bg-light p-4 p-md-5 contact-form">
                         <div class="form-group">
-                            <input name="user_name" type="text" class="form-control" placeholder="Your Name">
+                            <input name="user_name" type="text" class="form-control" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
-                            <input name="email" type="text" class="form-control" placeholder="Your Email">
+                            <input name="email" type="text" class="form-control" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <input name="subject" type="text" class="form-control" placeholder="Subject">
+                            <input name="subject" type="text" class="form-control" placeholder="Subject" required>
                         </div>
                         <div class="form-group">
                             <textarea name="contents" id="" cols="30" rows="7" class="form-control"
-                                placeholder="Message"></textarea>
+                                placeholder="Message" required></textarea>
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Send Message" href="mailto:rahulnisanth330@gmail.com"
