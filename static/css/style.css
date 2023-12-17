@@ -13301,7 +13301,7 @@ textarea.form-control {
 
 @media (max-width:600px) {
   #hero-container {
-    margin-top: -5px;
+    margin-top: -3rem;
   }
 
   .keyProjects {
