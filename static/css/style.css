@@ -13285,7 +13285,33 @@ textarea.form-control {
 .user-img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+}
+
+#profile--image {
+  border-radius: 50%;
+  width: 300px;
+  margin-bottom: 3rem;
+  border: 1px solid #2DFF00;
+}
+
+#hero-container {
+  margin-top: 5rem;
+}
+
+@media (max-width:600px) {
+  #hero-container {
+    margin-top: -5px;
+  }
+
+  .keyProjects {
+    margin-top: -8rem !important;
+  }
+
+  .project {
+    margin-bottom: -3.5rem !important;
+  }
+
 }
 
 .image-popup {
