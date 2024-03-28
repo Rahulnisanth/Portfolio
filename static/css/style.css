@@ -36,6 +36,8 @@
   box-sizing: border-box;
 }
 
+
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -317,6 +319,7 @@ fieldset {
   margin: 0;
   border: 0;
 }
+
 
 legend {
   display: block;
@@ -13085,7 +13088,7 @@ textarea.form-control {
 .ftco-footer .ftco-footer-widget h2 {
   font-weight: normal;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-size: 22px;
   font-weight: 600;
 }
@@ -13302,6 +13305,10 @@ textarea.form-control {
 @media (max-width:600px) {
   #hero-container {
     margin-top: -3rem;
+  }
+
+  #profile--image {
+    width: 250px;
   }
 
   .keyProjects {
