@@ -13,21 +13,6 @@
     <link rel="stylesheet" href="static/css/flaticon.css">
     <link rel="stylesheet" href="static/css/icomoon.css">
     <link rel="stylesheet" href="static/css/style.css">
-    <style>
-        @media (min-width: 500px) {
-            #sizer1 {
-                font-size: 27px !important;
-            }
-
-            #sizer2 {
-                font-size: 22px !important;
-            }
-
-            #sizer3 {
-                font-size: 15px !important;
-            }
-        }
-    </style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -56,7 +41,7 @@
                     <h5>Hello Geeks</h4>
                         <h2 style="font-size: 27px !important;" id="sizer1">I'm <span>Rahul Nisanth</span></h2>
                         <h3 style="font-size: 20px !important;" id="sizer2">Aspiring Software developer</h3>
-                        <p style="font-size: 15px !important;" id="sizer3">Let's connect and explore the boundless
+                        <p style="font-size: 10px !important;" id="sizer3">Let's connect and explore the boundless
                             possibilities that the world of <br />
                             Design &
                             Development
@@ -88,22 +73,21 @@
                                 actively working towards a Bachelor's degree.
                             </p>
                             <ul class="about-info mt-4 px-md-0 px-2">
-                                <li class="d-flex"><span>Name:</span> <span>Rahul Nisanth</span></li>
-                                <li class="d-flex"><span>Date of birth:</span> <span>September 03, 2004</span></li>
-                                <li class="d-flex"><span>Address:</span> <span>Student, @SIET</span></li>
-                                <li class="d-flex"><span>Zip code:</span> <span>Coimbatore-62</span></li>
+                                <li class="d-flex"><span>Name:</span> <span>Mr. Rahul Nisanth Muthu Kumar</span></li>
                                 <li class="d-flex"><span>Email:</span> <span>rahulnisanth330@gmail.com</span></li>
+                                <li class="d-flex"><span>Other:</span> <span>leetcode.com/rahul_nisanth</span></li>
                                 <li class="d-flex"><span>Phone: </span> <span>+91-6374422349</span></li>
+                                <li class="d-flex"><span>Role:</span> <span>Student | CSE</span></li>
                             </ul>
                         </div>
                     </div>
                     <div class="counter-wrap ftco-animate d-flex mt-md-3">
                         <div class="text">
                             <p class="mb-4">
-                                <span class="number">7+</span>
-                                <span>Projects completed</span>
+                                <span class="number">6th</span>
+                                <span>Rank in Institution Tech Portal</span>
                             </p>
-                            <p><a href="https://github.com/Rahulnisanth" class="btn btn-primary py-3 px-3">Explore
+                            <p><a href="#projects-section" class="btn btn-primary py-3 px-3">Explore
                                     projects</a></p>
                         </div>
                     </div>
@@ -267,7 +251,8 @@
     </section>
 
     <section class="ftco-section ftco-project" id="projects-section">
-        <div class="container" style="flex-direction: row-reverse !important;">
+        <!-- Removed: Inline style -->
+        <div class="container">
             <div class="row justify-content-center pb-5">
                 <div class="col-md-12 heading-section text-center ftco-animate">
                     <h1 class="big big-2">Projects</h1>
@@ -276,49 +261,66 @@
             </div>
             <div class="keyProjects">
 
-                <div class="row pt-5">
-                    <div class="col-md-8">
-                        <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(static/images/projectCaster.png);background-size: contain;
+                <div class="row pt-5 flex-row-md-reverse">
+                    <div class="col-md-8 order-md-2">
+                        <!-- Added anchor tag -->
+                        <a href="https://www.github.com/Rahulnisanth/TechInferno-Hub">
+                            <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+                                style="background-image: url(static/images/projectCaster.png);background-size: contain;
   background-repeat: no-repeat;
   background-position: center;">
-                        </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-md-4 pt-4">
+                    <div class="col-md-4 order-md-1 pt-4">
                         <div class="text justify-content-center align-items-center">
-                            <h2 style="font-weight: 700;">TechInferno Hub</h2>
+                            <h2 style="font-weight: 700; text-align: center; color: #2DFF00;">TechInferno Hub</h2>
                             <p class="text-justify">This project is a platform where users can showcase their projects
                                 and technical works to
                                 boost their profiles and share their accomplishments with a wider audience.</p>
-
                         </div>
                     </div>
                 </div>
-                <div class="row">
+
+                <!-- Add similar rows for other projects -->
+
+                <!-- Second project row -->
+                <div class="row pt-5">
                     <div class="col-md-8">
-                        <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(static/images/eventLanding.png);background-size: contain;
+                        <!-- Added anchor tag -->
+                        <a href="https://www.github.com/Rahulnisanth/Inceptron">
+                            <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+                                style="background-image: url(static/images/eventLanding.png);background-size: contain;
   background-repeat: no-repeat;
   background-position: center;">
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-4 pt-4">
                         <div class="text justify-content-center align-items-center">
-                            <h2 style="font-weight: 700;">Inceptron 2k23</h2>
+                            <h2 style="font-weight: 700; color: #2DFF00; text-align: center;">Inceptron 2k23</h2>
                             <p class="text-justify">Inceptron Hackathon Landing page is designed for Streamlined
                                 registration and seamless
                                 project submission for an unparalleled hackathon experience.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(static/images/project-4.png);background-size: contain;
+
+                <!-- Third project row -->
+                <div class="row pt-5 flex-row-md-reverse">
+                    <div class="col-md-8 order-md-2">
+                        <!-- Added anchor tag -->
+                        <a href="https://www.github.com/Rahulnisanth/BrandRoot-Clothinx">
+                            <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+                                style="background-image: url(static/images/project-4.png);background-size: contain;
   background-repeat: no-repeat;
   background-position: center;">
-                        </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-md-4 pt-4">
+                    <div class="col-md-4 order-md-1 pt-4">
                         <div class="text justify-content-center align-items-center">
-                            <h2 style="font-weight: 700;">BrandRoot Clothinx</h2>
+                            <h2 style="font-weight: 700; text-align: center; color: #2DFF00;">BrandRoot Clothinx</h2>
                             <p class="text-justify">E-commerce platform stands tall on the pillars of React,
                                 Redux, and Sass – a trio that ensures stunning and intuitive
                                 interface.</p>
@@ -326,16 +328,21 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <!-- Fourth project row -->
+                <div class="row pt-5">
                     <div class="col-md-8">
-                        <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(static/images/cryptoFundze.png);background-size: contain;
+                        <!-- Added anchor tag -->
+                        <a href="https://www.github.com/Rahulnisanth/CryptoFunding">
+                            <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+                                style="background-image: url(static/images/cryptoFundze.png);background-size: contain;
   background-repeat: no-repeat;
   background-position: center;">
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-4 pt-4">
                         <div class="text justify-content-center align-items-center">
-                            <h2 style="font-weight: 700;">CryptoFundze Dapp</h2>
+                            <h2 style="font-weight: 700; color: #2DFF00; text-align: center;">CryptoFundze Dapp</h2>
                             <p class="text-justify">This DApp enables project creators to raise campaigns directly from
                                 a decentralized pool of fund raisers without the need for intermediaries.</p>
                         </div>
@@ -345,6 +352,8 @@
             </div>
         </div>
     </section>
+
+
 
     <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
         <div class="container">
@@ -391,7 +400,7 @@
             <div class="row mb-5">
                 <div class="col-md">
                     <div class="ftco-footer-widget">
-                        <h2 class="ftco-heading-2 -mb-2">About</h2>
+                        <h2 class="ftco-heading-2 -mb-2">About me</h2>
                         <p class="text-justify">Let's connect and explore the boundless possibilities that the
                             world of
                             Design & Developing
@@ -403,8 +412,8 @@
                             </li>
                             <li class="ftco-animate"><a href="https://github.com/Rahulnisanth"><span
                                         class="icon-github"></span></a></li>
-                            <li class="ftco-animate"><a href="https://github.com/Rahulnisanth"><span
-                                        class="icon-github"></span></a></li>
+                            <li class="ftco-animate"><a href="https://leetcode.com/rahul_nisanth"><span
+                                        class="icon-code"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -423,7 +432,7 @@
                 </div>
                 <div class="col-md ml-4 pl-4">
                     <div class="ftco-footer-widget mb-2 ml-md-6">
-                        <h2 class="ftco-heading-2">Links</h2>
+                        <h2 class="ftco-heading-2">Useful Links</h2>
                         <ul class="list-unstyled">
                             <li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
                             <li><a href="#resume-section"><span class="icon-long-arrow-right mr-2"></span>Education</a>
@@ -445,7 +454,7 @@
                                 <li><span class="icon icon-map-marker"></span><span class="text">Student, SIET
                                         Coimbatore.</span></li>
                                 <li><a href="#"><span class="icon icon-phone"></span><span
-                                            class="text">+916374422349</span></a></li>
+                                            class="text">6374422349</span></a></li>
                             </ul>
                         </div>
                     </div>
