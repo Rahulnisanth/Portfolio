@@ -13,22 +13,6 @@
     <link rel="stylesheet" href="static/css/flaticon.css">
     <link rel="stylesheet" href="static/css/icomoon.css">
     <link rel="stylesheet" href="static/css/style.css">
-    <style>
-        @media (max-width: 500px) {
-            #sizer1 {
-                font-size: 25px !important;
-            }
-
-            #sizer2 {
-                font-size: 18px !important;
-                /* Changed 'font-family' to 'font-size' */
-            }
-
-            #sizer3 {
-                font-size: 9px !important;
-            }
-        }
-    </style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -49,7 +33,7 @@
         </div>
     </nav>
 
-    <section class="ftco-section ftco-hireme img margin-top" style="background-color: #000000;">
+    <section id="hero---container" class="ftco-section ftco-hireme img margin-top" style="background-color: #000000;">
         <div class="container">
             <div id="hero-container" class="row justify-content-center">
                 <div class="col-md-7 ftco-animate text-center">
@@ -83,17 +67,17 @@
                         <div class="col-md-12 heading-section ftco-animate">
                             <h1 class="big">About</h1>
                             <h2 class="mb-4">About Me</h2>
-                            <p>Hello Geeks!
+                            <p id="sizer4">Hello Geeks!
                                 <br>
                                 I'm Rahul Nisanth, a dedicated and enthusiastic first-year Computer Science student
                                 actively working towards a Bachelor's degree.
                             </p>
-                            <ul class="about-info mt-4 px-md-0 px-2">
-                                <li class="d-flex"><span>Name:</span> <span>Mr. Rahul Nisanth Muthu Kumar</span></li>
-                                <li class="d-flex"><span>Email:</span> <span>rahulnisanth330@gmail.com</span></li>
-                                <li class="d-flex"><span>Other:</span> <span>leetcode.com/rahul_nisanth</span></li>
-                                <li class="d-flex"><span>Phone: </span> <span>+91-6374422349</span></li>
-                                <li class="d-flex"><span>Role:</span> <span>Student | CSE</span></li>
+                            <ul id="sizer5" class="about-info mt-4 px-md-0 px-2">
+                                <li class="d-flex"><span>Name</span> <span>Mr. Rahul Nisanth </span></li>
+                                <li class="d-flex"><span>Email</span> <span>rahulnisanth330@gmail.com</span></li>
+                                <li class="d-flex"><span>Other</span> <span>leetcode.com/rahul_nisanth</span></li>
+                                <li class="d-flex"><span>Phone</span> <span>+91-6374422349</span></li>
+                                <li class="d-flex"><span>Role</span> <span>Student | CSE</span></li>
                             </ul>
                         </div>
                     </div>
@@ -126,40 +110,45 @@
                         <span class="date">2008-2020</span>
                         <h2>Primary Education</h2>
                         <span class="position">Venkitaraj Matriculation</span>
-                        <p class="mt-4 text-justify">My primary education experience was a journey filled with curiosity
+                        <p id="sizer6" class="mt-4 text-justify">My primary education experience was a journey filled
+                            with curiosity
                             and wonder
                             as I embarked on the exciting path of learning.
                             It was during my primary education that I laid the foundation for essential skills and
                             knowledge that would shape my future academic endeavors.</p>
                     </div>
                     <div class="resume-wrap ftco-animate">
-                        <span class="date">2022-2026</span>
-                        <h2>Computer Science Engineering</h2>
-                        <span class="position">SIET</span>
-                        <p class="mt-4 text-justify">My college education was a pivotal chapter in my life, marked by
-                            academic
-                            exploration, personal growth, and newfound independence.
-                            It was a time of diverse experiences, from engaging lectures and stimulating discussions to
-                            extracurricular activities.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="resume-wrap ftco-animate">
                         <span class="date">2020-2022</span>
                         <h2>Higher Education</h2>
                         <span class="position">Vigneshwar Vidhya Mandhir</span>
-                        <p class="mt-4 text-justify">My higher education experience was a transformative period of
+                        <p id="sizer6" class="mt-4 text-justify">My higher education experience was a transformative
+                            period of
                             intellectual
                             growth, where I delved deep into my chosen field of study and explored new perspectives.
                             It was a time of rigorous academic challenges, meaningful collaborations with professors and
                             peers.</p>
                     </div>
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">2022-2026</span>
+                        <h2>Computer Science Engineering</h2>
+                        <span class="position">SIET</span>
+                        <p id="sizer6" class="mt-4 text-justify">My college education was a pivotal chapter in my life,
+                            marked by
+                            academic
+                            exploration, personal growth, and newfound independence.
+                            It was a time of diverse experiences, from engaging lectures and stimulating discussions to
+                            extracurricular activities.</p>
+                    </div>
                     <div class="resume-wrap ftco-animate">
                         <span class="date">2023-2024</span>
                         <h2>Python Zero to Mastery</h2>
                         <span class="position">ZTM Academy</span>
-                        <p class="mt-4 text-justify">My Python & React course academy experience was a rewarding journey
+                        <p id="sizer6" class="mt-4 text-justify">My Python & React course academy experience was a
+                            rewarding journey
                             that
                             introduced me
                             to the world of programming and computer science.
@@ -288,12 +277,12 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 order-md-1 pt-4">
+                    <div class="col-md-4 mt-4 order-md-1 pt-4">
                         <div class="text justify-content-center align-items-center">
                             <h2 style="font-weight: 700; text-align: center; color: #2DFF00;">TechInferno Hub</h2>
                             <p class="text-justify">This project is a platform where users can showcase their projects
                                 and technical works to
-                                boost their profiles and share their accomplishments with a wider audience.</p>
+                                boost their profiles and share their accomplishments.</p>
                         </div>
                     </div>
                 </div>
@@ -312,7 +301,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 pt-4">
+                    <div class="col-md-4 mt-4 pt-4">
                         <div class="text justify-content-center align-items-center">
                             <h2 style="font-weight: 700; color: #2DFF00; text-align: center;">Inceptron 2k23</h2>
                             <p class="text-justify">Inceptron Hackathon Landing page is designed for Streamlined
@@ -334,7 +323,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 order-md-1 pt-4">
+                    <div class="col-md-4 mt-4 order-md-1 pt-4">
                         <div class="text justify-content-center align-items-center">
                             <h2 style="font-weight: 700; text-align: center; color: #2DFF00;">BrandRoot Clothinx</h2>
                             <p class="text-justify">E-commerce platform stands tall on the pillars of React,
@@ -356,7 +345,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 pt-4">
+                    <div class="col-md-4 mt-4 pt-4">
                         <div class="text justify-content-center align-items-center">
                             <h2 style="font-weight: 700; color: #2DFF00; text-align: center;">CryptoFundze Dapp</h2>
                             <p class="text-justify">This DApp enables project creators to raise campaigns directly from
@@ -433,7 +422,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md  pl-4 ml-4">
+                <div id="footer--gap" class="col-md  pl-4 ml-4">
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">Tools & Skills</h2>
                         <ul class="list-unstyled">
@@ -446,7 +435,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md ml-4 pl-4">
+                <div id="footer--gap" class="col-md ml-4 pl-4">
                     <div class="ftco-footer-widget mb-2 ml-md-6">
                         <h2 class="ftco-heading-2">Useful Links</h2>
                         <ul class="list-unstyled">

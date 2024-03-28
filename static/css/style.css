@@ -13057,7 +13057,7 @@ textarea.form-control {
 
 @media (max-width: 767.98px) {
   .ftco-section {
-    padding: 6em 0;
+    padding: 4em 0;
   }
 }
 
@@ -13960,5 +13960,33 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
+  }
+}
+
+@media (max-width: 500px) {
+  #hero---container {
+    margin-top: 2rem !important;
+  }
+
+  #sizer1 {
+    font-size: 25px !important;
+  }
+
+  #sizer2 {
+    font-size: 18px !important;
+  }
+
+  #sizer3 {
+    display: none;
+  }
+
+  #sizer4,
+  #sizer5,
+  #sizer6 {
+    font-size: 14px !important;
+  }
+
+  #footer--gap {
+    margin-left: -.1rem !important;
   }
 }
