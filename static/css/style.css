@@ -13989,4 +13989,55 @@ textarea.form-control {
   #footer--gap {
     margin-left: -.1rem !important;
   }
+
+  #project--texter {
+    margin-top: 2.5rem;
+  }
+}
+
+
+.ftco-footer-projects ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -1rem;
+
+}
+
+.ftco-footer-projects li {
+  list-style: none;
+  margin: 0 1rem 0 0;
+
+}
+
+.ftco-footer-projects li a {
+  height: 50px;
+  width: 50px;
+  display: block;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  position: relative;
+}
+
+.ftco-footer-projects li a span {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 26px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ftco-footer-projects li a:hover span {
+  color: #2DFF00;
+}
+
+#project--texter {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
