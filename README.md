@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Welcome to the Portfolio Preparation Project! <br>This project is designed to help you create an impressive and professional portfolio that showcases your skills, experiences, and achievements. Whether you're a student looking to land your dream job or a professional aiming to advance your career, a well-crafted portfolio is a crucial tool for making a lasting impression.</p>
+<p align="left">This project is designed to help you create an impressive and professional portfolio that showcases your skills, experiences, and achievements. Whether you're a student looking to land your dream job or a professional aiming to advance your career, a well-crafted portfolio is a crucial tool for making a lasting impression.</p>
 
 ###
 
@@ -23,11 +23,6 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" alt="flask logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" height="40" alt="chrome logo"  />
 </div>
 
 ###
