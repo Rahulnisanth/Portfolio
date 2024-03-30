@@ -1,7 +1,3 @@
-# Targetted variants
-static/images
-database.csv
-
-# Global variants
-*/bootstrap
-*/fonts
+__pycache__/
+*.pyc
+*.env
