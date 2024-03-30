@@ -1,1 +1,7 @@
-__pycache__
+# Targetted variants
+static/images
+database.csv
+
+# Global variants
+*/bootstrap
+*/fonts
